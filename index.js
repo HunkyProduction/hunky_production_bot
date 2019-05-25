@@ -8,7 +8,7 @@ const options = {
 };
 const bot = new TelegramBot(token, options);
 
-bot.setWebHook(`https://hunkyproductionbot.herokuapp.com/bot${token}`);
+bot.setWebHook(`https://hunkyproduction.herokuapp.com/bot${token}`);
 
 bot.onText(/\/start/, (msg, match) => {
 
